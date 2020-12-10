@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:keepScreenOn="true" >
+
+    <de.pleumann.android.mechanic.GaugeView
+        android:id="@+id/speedGauge"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TableLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1" >
+
+        <TableRow android:layout_weight="1" >
+
+            <de.pleumann.android.mechanic.GaugeView
+                android:id="@+id/rpmGauge"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <de.pleumann.android.mechanic.GaugeView
+                android:id="@+id/loadGauge"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1" >
+
+            <de.pleumann.android.mechanic.GaugeView
+                android:id="@+id/tempGauge"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <de.pleumann.android.mechanic.GaugeView
+                android:id="@+id/fuelGauge"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

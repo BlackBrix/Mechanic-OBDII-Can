@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mechanic</string>
+    <string name="menu_vehicleinfo">Fahrzeuginfo</string>
+    <string name="menu_troublecodes">Diagnosecodes</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_website">Projektseite</string>
+    <string name="title_activity_main">Mechanic</string>
+    <string name="select_blutooth">Bluetooth-Modul auswählen</string>
+    <string name="not_connected">nicht verbunden</string>
+    <string name="standard_ids">Standard-IDs</string>
+    <string name="extended_ids">Erweiterte IDs</string>
+    <string name="ok">OK</string>
+    <string name="rpm">" U/min"</string>
+    <string name="load">"% Last"</string>
+    <string name="fuel">"% Tank"</string>
+</resources>
