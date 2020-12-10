@@ -17,7 +17,13 @@ As a CAN bus shield I recommend the CANdiy shield from Watterott. This is not on
 Note that when using the CANdiy shield you **must** have the 2x3 pin ICSP header soldered. Otherwise the Arduino cannot talk to the CAN controller.  
 Here are the cable pinouts (RJ45 is for CANdiy, Sub-D is for Sparkfun and Seedstudio). I usually cut a CAT5/6 patch cable at one end and solder the OBD-II connector there.  
   
-**Signal** **OBD-II****RJ-45****Sub-D* *  CAN\_H 6 1 3 CAN\_L 14 2 5 GND 5 7 9 +12V 16 8 2  
+<table><tbody>
+<tr><td><strong>Signal</strong></td><td><strong>OBD-II</strong></td><td><strong>RJ45</strong></td><td><strong>Sub-D</strong></td></tr>
+<tr><td>CAN_H</td><td>6</td><td>1</td><td>3</td></tr>
+<tr><td>CAN_L</td><td>14</td><td>2</td><td>5</td></tr>
+<tr><td>GND</td><td>5</td><td>7</td><td>9</td></tr>
+<tr><td>+12V</td><td>16</td><td>8</td><td>2</td></tr>
+</tbody></table>  
 Installation is easy: Just get the latest release from the downloads page and place its contents into a "Mechanic" directory under your Arduino "libraries" directory. Then restart Arduino. You should now see a bunch of new examples that teach you how to use Mechanic. The "SelfTest" example is a good way of validating your setup (unless your Arduino has an ATmega168, which doesn't have enough RAM for the sketch).  
 There are two parameters in the sample sketches that might need to be adapted to your car: CAN bus speed can be 500 kbps or 250 kbps and identifiers can be standard or extended. Most vehicles I have come across seem to use the 500 kbps / standard IDs combination. The following table lists the ones I have tested successfully myself or have been reported to work by users. If your vehicle should be in this table please let me know.  
   
