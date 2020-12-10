@@ -1,3 +1,7 @@
+This project is copied / forked from here: [](https://code.google.com/archive/p/mechanic/)  
+
+----  
+  
 # Mechanic  
 This library allows you to query diagnostic values and other information from your car using an Arduino and a CAN bus shield. It assumes your car provides an OBD-II interface that supports the CAN bus. This should be true for most recent vehicles, since it has been a standard since 2008. Even some older vehicles do have (possibly reduced) CAN bus support on the ODB-II interface.  
 OBD-II, by the way, means "On-board Diagnostics, version II". The OBD-II interface is usually found inside the car, within reach of the driver's seat. The connector is large and almost rectangular. It looks a bit like the SCART connector on older TVs.  
