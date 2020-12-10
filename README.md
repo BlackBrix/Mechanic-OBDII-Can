@@ -1,4 +1,5 @@
 This project is copied / forked from here: [https://code.google.com/archive/p/mechanic](https://code.google.com/archive/p/mechanic/)  
+The project was created on May 2, 2013 / (c) 2013 Joerg Pleumann
 
 ----  
   
