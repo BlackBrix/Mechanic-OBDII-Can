@@ -28,7 +28,7 @@ Installation is easy: Just get the latest release from the downloads page and pl
 There are two parameters in the sample sketches that might need to be adapted to your car: CAN bus speed can be 500 kbps or 250 kbps and identifiers can be standard or extended. Most vehicles I have come across seem to use the 500 kbps / standard IDs combination. The following table lists the ones I have tested successfully myself or have been reported to work by users. If your vehicle should be in this table please let me know.  
   
 <table><tbody>
-<tr><td>**Manufacturer****Model****Year****Speed****Identifiers**</td></tr>
+<tr><td><strong>Manufacturer</strong></td><td><strong>Model</strong></td><td><strong>Year</strong></td><td><strong>Speed</strong></td><td><strong>Identifiers</strong></td></tr>
 <tr><td>Audi</td><td>A4</td><td>2012</td><td>500 kbps</td><td>Standard</td></tr>
 <tr><td>Ford</td><td>B-Max</td><td>2013</td><td>500 kbps</td><td>Both</td></tr>
 <tr><td>Ford</td><td>Fiesta</td><td>2005</td><td>500 kbps</td><td>Standard</td></tr>
