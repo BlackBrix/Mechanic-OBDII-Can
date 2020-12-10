@@ -1,4 +1,4 @@
-This project is copied / forked from here: [](https://code.google.com/archive/p/mechanic/)  
+This project is copied / forked from here: [https://code.google.com/archive/p/mechanic](https://code.google.com/archive/p/mechanic/)  
 
 ----  
   
