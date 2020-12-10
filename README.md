@@ -27,7 +27,17 @@ Here are the cable pinouts (RJ45 is for CANdiy, Sub-D is for Sparkfun and Seedst
 Installation is easy: Just get the latest release from the downloads page and place its contents into a "Mechanic" directory under your Arduino "libraries" directory. Then restart Arduino. You should now see a bunch of new examples that teach you how to use Mechanic. The "SelfTest" example is a good way of validating your setup (unless your Arduino has an ATmega168, which doesn't have enough RAM for the sketch).  
 There are two parameters in the sample sketches that might need to be adapted to your car: CAN bus speed can be 500 kbps or 250 kbps and identifiers can be standard or extended. Most vehicles I have come across seem to use the 500 kbps / standard IDs combination. The following table lists the ones I have tested successfully myself or have been reported to work by users. If your vehicle should be in this table please let me know.  
   
-**Manufacturer****Model****Year****Speed****Identifiers* *  Audi A4 2012 500 kbps Standard Ford B-Max 2013 500 kbps Both Ford Fiesta 2005 500 kbps Standard Ford Fiesta 2012 500 kbps Standard Opel Zafira 2008 500 kbps Standard Skoda Yeti 2013 500 kbps Standard Volvo V70 2013 500 kbps Standard VW Caddy 2011 500 kbps Standard  
+<table><tbody>
+<tr><td>**Manufacturer****Model****Year****Speed****Identifiers**</td></tr>
+<tr><td>Audi</td><td>A4</td><td>2012</td><td>500 kbps</td><td>Standard</td></tr>
+<tr><td>Ford</td><td>B-Max</td><td>2013</td><td>500 kbps</td><td>Both</td></tr>
+<tr><td>Ford</td><td>Fiesta</td><td>2005</td><td>500 kbps</td><td>Standard</td></tr>
+<tr><td>Ford</td><td>Fiesta</td><td>2012</td><td>500 kbps</td><td>Standard</td></tr>
+<tr><td>Opel</td><td>Zafira</td><td>2008</td><td>500 kbps</td><td>Standard</td></tr>
+<tr><td>Skoda</td><td>Yeti</td><td>2013</td><td>500 kbps</td><td>Standard</td></tr>
+<tr><td>Volvo</td><td>V70</td><td>2013</td><td>500 kbps</td><td>Standard</td></tr>
+<tr><td>VW</td><td>Caddy</td><td>2011</td><td>500 kbps</td><td>Standard</td></tr>
+</tbody></table>   
 The repository also contains a small Android app that shows a live dashboard with some values transmitted from Arduino via Bluetooth. I use an inexpensive Bluetooth board from MiB Instruments (around 10 US$, check eBay), but, again, there is no reason why others shouldn't work just as well assuming they provide a serial interface for communicating with the main Arduino board.  
 For documentation on the functions I currently recommend to read the comments in the "Mechanic.h" header file. There is also an article in German c't Hardware Hacks magazine 2/2013.  
 The library itself is made available under the GNU Lesser General Public License (LGPL). See the LICENSE file for details. All examples except the test suite are licensed under the Creative Commons Zero license, which effectively makes them public domain. The test suite sketch is licensed under the LGPL.  
