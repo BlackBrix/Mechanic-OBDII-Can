@@ -14,7 +14,7 @@ Mechanic works fine with the following Arduino boards:
 * Leonardo 
 * Mega (ATmega1280 and 2560)  
   
-As a CAN bus shield I recommend the CANdiy shield from Watterott. This is not only because I had a hand in it's making, but because it offers the greatest flexibility for a really low price. In particular it will work with several different Arduino boards. The Mechanic library does operate fine on Sparkfun's or Seed Studio's CAN shields, too, but at least on the Sparkfun Shield it is limited to the Arduino Diecimila, Duemilanove or Uno, because this shield carries the SPI on pins 11-13 instead of the ICSP header.  
+As a CAN bus shield I recommend the [CANdiy shield](https://github.com/BlackBrix/CANdiy-Shield) from Watterott. This is not only because I had a hand in it's making, but because it offers the greatest flexibility for a really low price. In particular it will work with several different Arduino boards. The Mechanic library does operate fine on Sparkfun's or Seed Studio's CAN shields, too, but at least on the Sparkfun Shield it is limited to the Arduino Diecimila, Duemilanove or Uno, because this shield carries the SPI on pins 11-13 instead of the ICSP header.  
 Note that when using the CANdiy shield you **must** have the 2x3 pin ICSP header soldered. Otherwise the Arduino cannot talk to the CAN controller.  
 Here are the cable pinouts (RJ45 is for CANdiy, Sub-D is for Sparkfun and Seedstudio). I usually cut a CAT5/6 patch cable at one end and solder the OBD-II connector there.  
   
@@ -52,5 +52,5 @@ Have fun!
 * 2013-05-21: Mechanic version 0.5 available for download. This is the first stable release of the library and the companion Android app. You can find some pictures here.  
 * 2013-05-05: Project goes online. This is actually a Railuino spin-off using the same hardware.  
 # Hardware  
-* If you are looking for the CANdiy Shield, Watterott has it (and everything else you need for the project).  
+* If you are looking for the [CANdiy Shield](https://github.com/BlackBrix/CANdiy-Shield), Watterott has it (and everything else you need for the project).  
 
